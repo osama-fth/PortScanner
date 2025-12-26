@@ -1,13 +1,15 @@
 # PortScanner
 
+![Go Version](https://img.shields.io/badge/Go-1.16+-00ADD8?style=flat&logo=go)
+
 Un semplice port scanner scritto in Go che utilizza goroutine per scansionare velocemente le porte TCP di un host target.
 
 ## Caratteristiche
 
-- Scansione concorrente con 100 worker paralleli
-- Timeout configurato a 500ms per connessione
-- Range di porte personalizzabile
-- Output ordinato delle porte aperte
+- 🚀 Scansione concorrente con 100 worker paralleli
+- ⚡ Timeout configurato a 500ms per connessione
+- 🎯 Range di porte personalizzabile
+- 📊 Output ordinato delle porte aperte
 
 ## Installazione
 
@@ -31,7 +33,7 @@ go build -o portscanner main.go
 
 ### Esempi
 
-**Scansione di localhost (tutte le porte):**
+**Scansione di localhost (porte di default):**
 ```bash
 ./portscanner
 ```
@@ -85,3 +87,4 @@ Tempo totale: 8.5s
 - Go 1.16 o superiore
 
 ---
+
